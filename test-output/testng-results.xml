@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-27T17:03:46 EDT" name="Default suite" finished-at="2022-09-27T17:04:42 EDT" duration-ms="56406">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.lms.testrunners.TestRunner@4c4f4365]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-09-27T17:03:46 EDT" name="Default test" finished-at="2022-09-27T17:04:42 EDT" duration-ms="56406">
+      <class name="com.lms.testrunners.TestRunner">
+        <test-method is-config="true" signature="defineBrowser(java.lang.String)[pri:0, instance:com.lms.testrunners.TestRunner@4c4f4365]" started-at="2022-09-27T17:03:46 EDT" name="defineBrowser" finished-at="2022-09-27T17:03:46 EDT" duration-ms="58" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defineBrowser -->
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.lms.testrunners.TestRunner@4c4f4365]" started-at="2022-09-27T17:03:46 EDT" name="setUpClass" finished-at="2022-09-27T17:03:49 EDT" duration-ms="3456" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5354b0bc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.lms.testrunners.TestRunner@4c4f4365]" started-at="2022-09-27T17:03:49 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-27T17:04:03 EDT" duration-ms="13781" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validating the Login functionality with no credentials entered"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login page feature for the LMS website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.lms.testrunners.TestRunner@4c4f4365]" started-at="2022-09-27T17:04:03 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-27T17:04:12 EDT" duration-ms="9232" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validating the Login functionality with invalid username field"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login page feature for the LMS website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.lms.testrunners.TestRunner@4c4f4365]" started-at="2022-09-27T17:04:12 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-27T17:04:23 EDT" duration-ms="10545" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validating the Login functionality with invalid password field"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login page feature for the LMS website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.lms.testrunners.TestRunner@4c4f4365]" started-at="2022-09-27T17:04:23 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-27T17:04:34 EDT" duration-ms="10661" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validating the Login functionality with valid username and password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login page feature for the LMS website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.lms.testrunners.TestRunner@4c4f4365]" started-at="2022-09-27T17:04:34 EDT" name="tearDownClass" finished-at="2022-09-27T17:04:42 EDT" duration-ms="8523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.lms.testrunners.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

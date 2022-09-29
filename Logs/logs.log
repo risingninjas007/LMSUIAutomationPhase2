@@ -1,0 +1,8 @@
+2022-09-28 09:39:23.938 [TestNG-tests-2] INFO  com.lms.hooks.CucumberHooks - Execution for Scenario - Start ->Validating the Login functionality with no credentials entered
+2022-09-28 09:39:24.059 [TestNG-tests-1] INFO  com.lms.hooks.CucumberHooks - Execution for Scenario - Start ->Validating the Login functionality with no credentials entered
+2022-09-28 09:39:34.600 [TestNG-tests-2] INFO  com.lms.hooks.CucumberHooks - Execution for Scenario - Start ->Validating the Login functionality with invalid username field
+2022-09-28 09:39:35.635 [TestNG-tests-1] INFO  com.lms.hooks.CucumberHooks - Execution for Scenario - Start ->Validating the Login functionality with invalid username field
+2022-09-28 09:39:45.618 [TestNG-tests-1] INFO  com.lms.hooks.CucumberHooks - Execution for Scenario - Start ->Validating the Login functionality with invalid password field
+2022-09-28 09:39:46.492 [TestNG-tests-2] INFO  com.lms.hooks.CucumberHooks - Execution for Scenario - Start ->Validating the Login functionality with invalid password field
+2022-09-28 09:39:56.806 [TestNG-tests-1] INFO  com.lms.hooks.CucumberHooks - Execution for Scenario - Start ->Validating the Login functionality with valid username and password
+2022-09-28 09:39:57.934 [TestNG-tests-2] INFO  com.lms.hooks.CucumberHooks - Execution for Scenario - Start ->Validating the Login functionality with valid username and password
